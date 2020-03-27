@@ -1,4 +1,4 @@
-# Given a list of numbers, determine whether three numbers in the list can form a Pythagorean triplet (the square of one number equals the sum of two other squared numbers)
+# Given a sorted list of numbers, determine whether three numbers in the list can form a Pythagorean triplet (the square of one number equals the sum of two other squared numbers)
 def pythTrip(list):
     # nest three loops, like a true level 10 engineer
     # Use each loop to place a pointer
