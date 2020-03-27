@@ -8,8 +8,8 @@ def pythTrip(list):
     # Return false at the end
 
     for i in range(len(list)):
-        for j in range(len(list)):
-            for k in range(len(list)):
+        for j in range(i+1, len(list)):
+            for k in range(i+2, len(list)):
                 if list[i] ** 2 + list[j] ** 2 == list[k] ** 2:
                     return True
     return False
